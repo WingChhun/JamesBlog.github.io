@@ -1,0 +1,136 @@
+/* INSTALL FONTS */
+
+@font-face {
+    /*Install a font locally using Font Faces */
+    font-family: 'Kreon-Regular';
+    src: local('Kreon-Regular.ttf'), url('Kreon-Regular.ttf') format('truetype');
+    /* or truetype*/
+}
+
+@font-face {
+    /*Install a font locally using Font Faces */
+    font-family: 'Walter-TurnCoat';
+    src: local('Walter-TurnCoat.ttf'), url('Walter-TurnCoat.ttf') format('truetype');
+    /* or truetype*/
+}
+
+body {
+    /* Heading default text  */
+    font-family: 'Walter-TurnCoat';
+    background: url('../img/subtle_white_feathers.png') center center;
+}
+
+p {
+    /*Default body text   */
+    line-height: 1.2rem;
+    font-size: 1.1rem;
+    font-family: 'Kreon-Regular';
+}
+
+
+/*NAVIGATION*/
+
+.nav {
+    margin-bottom: 68px;
+}
+
+.nav-item a {
+    margin-right: 20px;
+    transition: 0.7s;
+}
+
+.navbar a {
+    font-size: 1.1rem;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.nav-item a:hover {
+    background: rgba(0, 0, 0, 0.9);
+    transition: 0.7s;
+    border-radius: 25%;
+}
+
+.brand-img {
+    height: 60px;
+    width: 60px;
+    margin-left: 25px;
+    margin-right: 20px;
+    border: solid 1px black;
+    border-radius: 50%;
+    transition: 1s;
+}
+
+.brand-img:hover {
+    transition: 1s;
+    transform: scale(1.15);
+}
+
+
+/*Helper Classes*/
+
+.bold-aqua {
+    font-weight: 700;
+    color: mediumaquamarine;
+}
+
+
+/* HOME/ COVER  */
+
+#Cover {
+    height: 100%;
+    padding: 5rem;
+    background: url('../img/cover.jpg') center, center;
+    background-size: cover;
+    color: white;
+    text-shadow: 1px 3px black;
+    text-align: center;
+}
+
+.section-cover {
+    padding: 6rem;
+}
+
+.head {
+    font-size: 4rem;
+    line-height: inherit;
+}
+
+.under-head {
+    font-size: 3.5rem;
+    line-height: inherit
+}
+
+.under-heading {
+    padding-top: 20px;
+    font-size: 1.3rem;
+    line-height: inherit;
+}
+
+.section-cover .col-sm-12 {
+    background-color: rgba(0, 0, 0, 0.33);
+}
+
+
+/* ABOUT  */
+
+
+/* Projects  */
+
+
+/* Skills  */
+
+
+/* Contact  */
+
+
+/* Footer  */
+
+
+/* Change container width */
+
+container {
+    max-width: 1350px !important;
+}
