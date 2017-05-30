@@ -1,0 +1,141 @@
+* {
+    font-family: Merriweather;
+}
+
+body {
+    padding-top: 70px;
+}
+
+#content {
+    text-align: center;
+}
+
+a:hover {
+    text-decoration: line-through;
+}
+
+a {
+    color: darkgray;
+    font-weight: 700;
+}
+
+body {
+    background: url("https://images.unsplash.com/photo-1429051883746-afd9d56fbdaf?dpr=1&auto=compress,format&fit=crop&w=1199&h=799&q=80&cs=tinysrgb&crop=");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#content {
+    padding-top: 13%;
+    color: white;
+    text-shadow: black 2px 2px;
+    margin-bottom: 10%;
+}
+
+#content h1 {
+    font-weight: 700;
+    font-size: 4.5em;
+}
+
+#content h3 {
+    font-weight: 700;
+    font-size: 3em;
+}
+
+#content h4 {
+    font-size: 2em;
+}
+
+.Thoughts,
+.Entries {
+    background: rgba(211, 211, 211, 0.2);
+    min-height: 300px;
+}
+
+.Thoughts h2,
+.Entries h2 {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.page-header {
+    background: rgba(211, 211, 211, 0.1);
+    min-height: 250px;
+}
+
+.Entries {
+    list-style: none;
+}
+
+.Entries h2,
+.Thoughts h2 {
+    text-shadow: black 2px 2px;
+    color: darkgray;
+}
+
+.Entries p {
+    font-size: 1.8em;
+    text-shadow: black 1px 1px;
+}
+
+.Thoughts p {
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 23px;
+    font-style: italic;
+    color: white;
+    text-shadow: black 1px 1px;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.container {
+    width: 80%;
+}
+
+.page-header {
+    padding-top: 5%;
+    min-height: 300px;
+}
+
+#content h3,
+#content h4 {
+    padding-top: 5%;
+}
+
+
+/* Content   */
+
+#Blog-goal
+{
+  text-align:center;
+  text-shadow: 2px 2px black;
+color:white;
+}
+#blog-entry
+{
+color:
+font-size:18px;
+line-height:23px;;
+text-shadow: 2px 2px black;
+}
+#Entries-Blog p
+{
+color:white;
+text-shadow:2px 2px black;
+font-style:italic;
+font-size: 15px;
+line-height:20px;
+}
+#Entries-Blog
+{
+
+vertical-align:top;
+margin-top:20px;
+  padding-top:50px;
+  padding-bottom:50px;
+  background: rgba(211, 211, 211, 0.2);
+
+}

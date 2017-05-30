@@ -1,0 +1,16 @@
+Header
+
+OpenSans Semi Bold - Navigation
+
+Header-Title Ubuntu told
+	-PT sans bold
+
+-Features
+	-PT Sans boldt
+	-PT sans regular
+
+Gallery	-Pt sans bold
+	-PT sans regulart
+Template - Pt Sans bold
+	-Pt sans regulart
+Portfolio

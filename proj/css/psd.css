@@ -1,0 +1,386 @@
+/* HELPER CLASSES BEGIN */
+
+.alignLeft {
+    float: left;
+}
+
+.alignRight {
+    float: right;
+}
+
+.borderBlack {
+    border: 2px solid black;
+}
+
+.margin-bottom-10 {
+    margin-bottom: 10px;
+}
+
+.margin-bottom-20 {
+    margin-bottom: 20px;
+}
+
+.margin-bottom-30 {
+    margin-bottom: 30px;
+}
+
+.margin-bottom-40 {
+    margin-bottom: 40px;
+}
+
+padding-left-10 {
+    padding-left: 10px;
+}
+
+padding-left-20 {
+    padding-left: 20px;
+}
+
+padding-left-30 {
+    padding-left: 30px;
+}
+
+padding-left-40 {
+    padding-left: 40px;
+}
+
+strong,
+b {
+    font-weight: 700;
+}
+
+em {
+    font-style: italic;
+}
+
+p,
+ul li,
+ol li {
+    font-size: 16px;
+    line-height: 23px;
+    margin-bottom: 20px;
+}
+
+
+/* HELPER CLASSES END */
+
+
+/* GENERAL RULES */
+
+@font-face {
+    font-family: 'HelveticaNeue-Thin';
+    src: local('HelveticaNeue-Thin.otf'), url('HelveticaNeue-Thin.otf') format('opentype');
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+.container {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    padding: 40px 20px;
+}
+
+body {
+    font-family: 'HelveticaNeue-Thin';
+}
+
+#hero {
+    background-image: linear-gradient(rgba(218, 51, 46, 0.6), rgba(218, 51, 46, 0.6)), url('../img/hero-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h2 {
+    font-size: 52px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+}
+
+.nav li {
+    display: inline-block;
+}
+
+.nav li a {
+    font-size: 16px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 30px;
+    padding-bottom: 3px;
+    border-bottom: 4px solid white transparent;
+    transition: border-bottom 0.1s, color 0.1s;
+}
+
+.nav li a:hover {
+    border-bottom: 4px solid white;
+    transition: border-bottom 0.1s, color 0.1s;
+}
+
+.cta h2 {
+    color: white;
+    margin-bottom: 40px;
+}
+
+.cta {
+    display: inline-block;
+    margin-top: 90px;
+}
+
+.imgs {
+    float: right;
+    position: absolute;
+    right: -135px;
+}
+
+.iphone {
+    width: 85%;
+    position: relative;
+    margin-bottom: -240px;
+}
+
+.ctf-info {
+    width: 60%;
+}
+
+.hero-para {
+    font-size: 36px;
+    line-height: 40px;
+    font-family: 'HelveticaNeue-Thin';
+    color: white;
+    margin-bottom: 55px;
+}
+
+.cta-button {
+    padding: 23px 30px;
+    background: #282828;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    text-transform: uppercase;
+}
+
+.cta-button:hover {
+    background: #383737;
+    transition: 0.3s;
+}
+
+.phone-icon {
+    vertical-align: middle;
+    padding-right: 20px;
+}
+
+.col-4-app {
+    width: 33%;
+    display: inline-block;
+    text-align: center;
+    float: left;
+}
+
+.col-4-app p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.app-features,
+.p-features {
+    text-align: center;
+}
+
+.app-features {
+    font-size: 52px;
+    margin-bottom: 35px;
+    color: #8a8a8a;
+}
+
+.p-features {
+    font-size: 22px;
+    margin-bottom: 50px;
+    padding-left: 130px;
+    padding-right: 130px;
+    font-family: 'HelveticaNeue-Light';
+    color: #c0c0c0;
+}
+
+.col-4-app h3 {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family: 'HelveticaNeue-Bold';
+}
+
+.row p {
+    font-size: 18px;
+    font-family: 'HelveticaNeue-Light';
+    color: #8a8a8a
+}
+
+.row {
+    overflow: hidden;
+}
+
+
+/* NOSE */
+
+#nose {
+    min-height: 600px;
+    background-image: url("../img/nose.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.download-info {
+    width: 60%;
+    padding: 200px 0;
+}
+
+.download-info h1,
+.download-info em {
+    margin-bottom: 60px;
+    font-size: 52px;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    color: #f55150;
+}
+
+.download-info p {
+    font-size: 24px;
+    line-height: 28px;
+    font-family: 'HelveticaNeue-Light';
+    margin-bottom: 50px;
+}
+
+.download-info em {
+    color: white;
+}
+
+.download-btn {
+    padding: 15px;
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    background: #d9332d;
+    border-radius: 50px;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.download-btn:hover {
+    background: #c33934;
+    transition: 0.3s;
+}
+
+
+/* FOOTER */
+
+footer {
+    background: #2e2e38;
+    color: white;
+}
+
+footer .container {
+    padding: 120px 20px;
+}
+
+footer h4 {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+footer p {
+    font-family: 'HelveticaNeue-Thin';
+}
+
+.ul-posts li {
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 20px;
+    padding-left: 70px;
+}
+
+.col-4-footer {
+    display: inline-block;
+    width: 30%;
+    float: left;
+    margin-top: 77px;
+    color: white;
+    padding: 30px;
+}
+
+.reddish-bg {
+    background: url("../img/red.png");
+    background-repeat: no-repeat;
+}
+
+.ul-posts,
+.ul-tweets {
+    font-family: 'HelveticaNeue-Thin';
+}
+
+.block {
+    display: block;
+}
+
+.p-about {
+    font-size: 15px;
+    font-style: italic;
+    margin-top: 25px;
+}
+
+.ul-tweets li {
+    list-style: none;
+    margin-bottom: 25px;
+}
+
+.smalltext {
+    font-size: 11px;
+    margin-top: 5px;
+}
+
+
+/* Copyright */
+
+.copyright .container {
+    padding: 40px;
+    text-align: center;
+}
+
+.copyright {
+    background: #d7dedc;
+}
+
+.inline {
+    font-size: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.cr,
+.me {
+    margin-right: 40px;
+}
+
+.fb,
+.twit,
+.git-img {
+    margin-right: 40px;
+}
+
+.cr:after,
+.me:after {
+    content: "";
+    border: 1px solid #555555;
+    margin-left: 35px;
+}
