@@ -209,6 +209,10 @@ hr {
     padding: 1.5rem;
 }
 
+.padd {
+    margin-top: 15px;
+}
+
 .test-border {
     margin-top: 10px;
     padding: 25px;
