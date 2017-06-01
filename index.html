@@ -3,6 +3,7 @@
 
 <head>
     <!--Link Bootstrap, Font Awesome, CSS, animate.css-->
+    <link href="https://fonts.googleapis.com/css?family=Kumar+One|Patua+One" rel="stylesheet">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
     <link rel='stylesheet' type='text/css' href='css/animate.css'>
@@ -10,7 +11,7 @@
     <link rel='stylesheet' type='text/css' href='css/bootstrap.min.css'>
     <link rel='stylesheet' type='text/css' href='css/style.css'>
     <link rel='stylesheet' type='text/css' href='css/animations.css'>
-    <title>Code Monkey James</title>
+    <title> James | Web Developer</title>
 </head>
 <!-- End of Head ->
 <!--Body -->
@@ -18,39 +19,46 @@
 <body>
     <!-- SECTION - COVER -->
     <!-- NAVIGATION BAR -->
-    <nav class="navbar  navbar-toggleable-md navbar-inverse bg-inverse" id="main-nav">
-        <!-- Hamburger Button -->
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
-        <!-- Navbar Brand -->
-        <a class="navbar-brand" href="#"> <img src="img/web4.png" class='brand-img' alt="brand-img">WingChhun</a>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <!-- Navbar Links -->
-            <ul class=" navbar-nav  ml-auto   ">
-                <li class="nav-item  active"> <a class="nav-link " href="#Cover">Home </a> </li>
-                <li class="nav-item"> <a class="nav-link" href="#About">About</a> </li>
-                <li class="nav-item"> <a class="nav-link" href="#Projects">Projects</a> </li>
-                <li class="nav-item"> <a class="nav-link" href="#Skills">Skills</a> </li>
-                <li class="nav-item"> <a class="nav-link" href="#Contact">Contact</a> </li>
-            </ul>
-        </div>
-    </nav>
-    <section id='Cover'>
-        <div class="section-cover">
-            <div class='container'>
-                <div class='row'>
-                    <div class='col-sm-12'>
-                        <h1 class='head'><span class="bold-aqua">Greetings!</span></h1>
-                        <h2 class='under-head'>Welcome to my <span class="bold-aqua">Blog</span> Site!</h2>
-                        <p class="lead under-heading"> My name is James and this is <span class='bold-aqua'>not</span> actually a blog. This is where I will be uploading any kind of work or projects that I have <span class="bold-aqua">finished</span> or am currently working on! </p>
-                    </div>
-                </div>
-                <!-- row-->
+    <section id='full-cover'>
+        <nav class="navbar  navbar-toggleable-md navbar-inverse " id="main-nav">
+            <!-- Hamburger Button -->
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+            <!-- Navbar Brand -->
+            <a class="navbar-brand" href="#"> <img src="img/web4.png" class='brand-img' alt="brand-img">WingChhun</a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- Navbar Links -->
+                <ul class=" navbar-nav  ml-auto   ">
+                    <li class="nav-item  active"> <a class="nav-link " href="#Cover">Home </a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#About">About</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#Projects">Projects</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#Skills">Skills</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#Contact">Contact</a> </li>
+                </ul>
             </div>
-            <!--container-->
-        </div>
-        <!--section-cover-->
+        </nav>
+        <section id='Cover'>
+            <div class="section-cover">
+                <div class='container'>
+                    <div class='row'>
+                        <div class='col-sm-10 offset-sm-1'>
+                            <h1 class='head'><span class="bold-aqua">Greetings!</span></h1>
+                            <h2 class='under-head'>My name is James and this is my Prototype-<span class="bold-aqua">Blog</span> Site!</h2> </div>
+                        <div class="col-sm-4 offset-sm-4 cover-but"> <a href='#Contact' class='cover-button-contact'>Wish to Contact me?</a> </div>
+                        <div class="col-sm-4 offset-sm-4">
+                            <div class="cover-btn">
+                                <a href="#About" class='scroll-to-bottom'>
+                                    <p class='cover-btn-text'>Learn more about what I do</p> <i class="fa fa-angle-down fa-2x btn-scroll-about"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- row-->
+                </div>
+                <!--container-->
+            </div>
+            <!--section-cover-->
+        </section>
+        <!--cover-->
     </section>
-    <!--cover-->
     <!-- SECTION -HERO -->
     <section id="About">
         <div class="section-hero">
@@ -90,21 +98,90 @@
         </div>
     </section>
     <!-- section-about-->
-    <section id="Projects">
-        <div class="section-projects">
+    <section id="Skills">
+        <div class='container'>
+            <div class='row'>
+                <div class="col-sm-8 offset-sm-2">
+                    <h2 class='skills-head'>My Expertise</h2>
+                    <p class="under-skills-head">What I bring to the table</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4"> <i class="fa fa-paint-brush fa-4x"></i>
+                    <h2 class='skills-title'>Design</h2>
+                    <p class="skills-text">I sketch and wireframe websites... sike I suck </p>
+                </div>
+                <div class="col-sm-4 "> <i class="fa fa-code fa-4x "></i>
+                    <h2 class='skills-title'>Code</h2>
+                    <p class="skills-text">I design webpages using HTML5, CSS3, JS. I am also familiar with popular libraries and frameworks such as jQuery and Bootstrap.</p>
+                </div>
+                <div class="col-sm-4 "> <i class="fa fa-desktop fa-4x"></i>
+                    <h2 class="skills-title ">Responsive</h2>
+                    <p class="skills-text">I am well-versed in creating responsive websites that accomdate desktop, tablet, and smart-phone screens.</p>
+                </div>
+            </div>
+            <!--row-->
+        </div>
+        <!--container-->
+    </section>
+    <section id='More-Skills'>
+        <div class='container'>
+            <div class="row">
+                <div class="col-sm-8 offset-sm-2">
+                    <h2 class='More-title'>Additional Skills</h2> </div>
+            </div>
+            <!--Row-->
+            <div class="row">
+                <div class="col-sm-4">
+                    <h2 class='More-title2'>Front-End:</h2>
+                    <ul class="more-list">
+                        <li class="more-skill">HTML5</li>
+                        <li class="more-skill">CSS3</li>
+                        <li class="more-skill">Javascript</li>
+                        <li class="more-skill">Bootstrap</li>
+                        <li class="more-skill">jQuery</li>
+                        <li class="more-skill">PSD to HTML</li>
+                    </ul>
+                </div>
+                <div class="col-sm-4">
+                    <h2 class='More-title2'>Back-End:</h2>
+                    <ul class="more-list">
+                        <li class="more-skill">Cloud9</li>
+                        <li class="more-skill">MongoDB</li>
+                        <li class="more-skill">NodeJS</li>
+                        <li class="more-skill">Currently Learning MEAN Stack</li>
+                    </ul>
+                </div>
+                <div class="col-sm-4">
+                    <h2 class="More-title2"> Worth Mentioning:</h2>
+                    <ul class="more-list">
+                        <li class="more-skill">Github</li>
+                        <li class="more-skill">Object-Oriented-Programming in C++</li>
+                        <li class="more-skill">Microsoft Visual Studio Ultimate 2012</li>
+                        <li class="more-skill">Adobe Photoshop (for PSD to HTML)</li>
+                        <li class="more-skill">Brackets and Atom Text Editors</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Container -->
+    </section>
+    <!--Additional Skills -->
+    <section id="Projects ">
+        <div class="section-projects ">
             <div class='container'>
                 <div class='row'>
-                    <div class="col-sm-8 offset-sm-2">
-                        <h2 class="bold-aqua">Projects</h2> </div>
+                    <div class="col-sm-8 offset-sm-2 ">
+                        <h2 class="bold-aqua ">Personal Projects</h2> </div>
                 </div>
                 <div class="row ">
-                    <div class="col-sm-4 padd"> <img class='project-img' src="img/proj-port.png" alt="land-cuda"> </div>
-                    <div class="col-sm-4  padd"> <img class='project-img' src="img/land-gallery.png" alt="land-cuda"> </div>
-                    <div class="col-sm-4 padd"> <img class='project-img' src="img/land-cuda.png" alt="land-cuda"> </div>
-                    <div class="col-sm-4 padd"> <img class='project-img' src="img/land-bluebox.png" alt="land-cuda"> </div>
-                    <div class="col-sm-4 padd"> <img class='project-img' src="img/land-elena.png" alt="land-cuda"> </div>
-                    <div class="col-sm-4 padd"> <img class='project-img' src="img/land-PSD.png" alt="land-cuda"> </div>
-                    <div class="col-sm-4 padd"> <img class='project-img' src="img/land-blog.png" alt="land-cuda"> </div>
+                    <div class="col-sm-4 padd "> <img class='project-img' src="img/proj-port.png " alt="land-cuda "> </div>
+                    <div class="col-sm-4 padd "> <img class='project-img' src="img/land-gallery.png " alt="land-cuda "> </div>
+                    <div class="col-sm-4 padd "> <img class='project-img' src="img/land-cuda.png " alt="land-cuda "> </div>
+                    <div class="col-sm-4 padd "> <img class='project-img' src="img/land-bluebox.png " alt="land-cuda "> </div>
+                    <div class="col-sm-4 padd "> <img class='project-img' src="img/land-elena.png " alt="land-cuda "> </div>
+                    <div class="col-sm-4 padd "> <img class='project-img' src="img/land-PSD.png " alt="land-cuda "> </div>
+                    <div class="col-sm-4 padd "> <img class='project-img' src="img/land-blog.png " alt="land-cuda "> </div>
                 </div>
                 <!-- row-->
             </div>
@@ -113,18 +190,9 @@
     </section>
     <!--section-projects-->
     <!--section-hero-->
-    <section id="Skills">
-        <div class="section-skills">
-            <div class='container'>
-                <div class='row'> </div>
-                <!-- row-->
-            </div>
-            <!--container-->
-        </div>
-    </section>
     <!--section-skills-->
-    <section id="Contact">
-        <div class="section-contact">
+    <section id="Contact ">
+        <div class="section-contact ">
             <div class='container'>
                 <div class='row'> </div>
                 <!-- row-->
