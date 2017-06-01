@@ -529,6 +529,30 @@ footer p {
 }
 
 
+/* ANIMATIONS */
+
+.js-wp-1,
+.js-wp-2,
+.js-wp-3,
+.js-wp-4,
+.js-wp-5,
+.js-wp-6,
+{
+    -webkit-animation-duration: 2s;
+    -webkit-animation-delay: 3s;
+    opacity: 0;
+}
+
+.js-wp-1.animated,
+.js-wp-2.animated,
+.js-wp-3.animated,
+.js-wp-4.animated,
+.js-wp-5.animated,
+.js-wp-6.animated {
+    opacity: 1;
+}
+
+
 /* Change container width */
 
 container {
