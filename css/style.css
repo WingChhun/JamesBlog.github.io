@@ -130,8 +130,7 @@ hr {
     color: #d4d4d4;
 }
 
-.cover-btn,
-{
+.cover-btn {
     font-size: 1.2rem;
     position: relative;
     top: 80%;
@@ -142,6 +141,11 @@ hr {
     padding: 1rem 5px 5px 0;
     color: #d4d4d4;
     font-style: italic;
+    font-size: 1.2rem;
+    transition: 0.3s;
+}
+
+.cover-btn-text:hover {
     font-size: 1.3rem;
     transition: 0.3s;
 }
@@ -233,43 +237,6 @@ hr {
 }
 
 
-/* Projects  */
-
-#Projects {
-    padding: 5rem;
-    text-align: center;
-    background-color: white;
-}
-
-.section-projects .bold-aqua {
-    font-size: 2.2rem;
-}
-
-.project-img {
-    padding: 10px;
-    transition: 0.6s;
-    box-shadow: 2px 3px rgba(0, 0, 0, 0.2);
-}
-
-.project-img:hover {
-    transition: 0.6s;
-    transform: scale(0.8);
-}
-
-.section-projects h2 {
-    padding: 1.5rem;
-}
-
-.padd {
-    margin-top: 15px;
-}
-
-.test-border {
-    margin-top: 10px;
-    padding: 25px;
-}
-
-
 /* Skills  */
 
 #Skills {
@@ -312,6 +279,149 @@ hr {
     font-size: 1.2rem;
     line-height: 1.4rem;
     padding: 5px;
+}
+
+
+/*More-Skills*/
+
+#More-Skills {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+#More-Skills .container {
+    box-shadow: 1px 2px #d4d4d4;
+    padding-bottom: 1.5rem;
+}
+
+.More-title {
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 0.5rem;
+}
+
+.More-title2 {
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.more-list {
+    box-shadow
+}
+
+.more-skill {
+    font-size: 1.2rem;
+}
+
+
+/* Parallax*/
+
+.parallax {
+    /* The image used */
+    text-align: center;
+    color: white;
+    background-image: url("../img/parallax.jpg");
+    /* Set a specific height */
+    height: 600px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-contain {
+    margin-top: 20%;
+    height: 150px;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.parallax-contain h2 {
+    padding-top: 45px;
+    font-size: 2.2rem;
+    color: #FDCD3B;
+    text-shadow: 1px 1px black;
+}
+
+
+/* Projects  */
+
+.section-projects {
+    padding: 3rem;
+    text-align: center;
+    background-color: white;
+}
+
+.section-projects .bold-aqua {
+    font-size: 2.2rem;
+    text-align: center;
+}
+
+.project-img {
+    padding: 10px;
+    height: 200px;
+    width: 100%;
+    margin-bottom: 15px;
+    transition: 0.6s;
+    box-shadow: 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.project-img:hover {
+    transition: 0.6s;
+    transform: scale(1.02);
+    transition: 0.5s;
+}
+
+.section-projects h2 {
+    padding: 1.5rem;
+}
+
+.test-border {
+    margin-top: 10px;
+    padding: 25px;
+}
+
+.padd {
+    margin-top: 15px;
+    position: relative;
+    text-align: center;
+}
+
+.project-img {}
+
+.padd .bold-aqua {
+    font-size: 1.2rem;
+    float: left;
+}
+
+.padd .project-title {
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+.proj-under-title {
+    font-size: 0.8rem;
+    font-style: italic;
+}
+
+.padd a {
+    /*Project Button */
+    border-radius: 25px;
+    padding: 4px;
+    border: 1px solid black;
+    color: black;
+    font-size: 1rem;
+    background-color: #FDCD3B;
+    transition: 0.6s;
+}
+
+.padd a:hover,
+.padd a i:hover {
+    transition: 0.6s;
+    padding: 8px;
+    color: #FDCD3B;
+    background-color: black;
 }
 
 
