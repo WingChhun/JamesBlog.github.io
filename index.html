@@ -30,8 +30,8 @@
                 <ul class=" navbar-nav  ml-auto   ">
                     <li class="nav-item  active"> <a class="nav-link " href="#Cover">Home </a> </li>
                     <li class="nav-item"> <a class="nav-link" href="#About">About</a> </li>
-                    <li class="nav-item"> <a class="nav-link" href="#Projects">Projects</a> </li>
                     <li class="nav-item"> <a class="nav-link" href="#Skills">Skills</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#Projects">Projects</a> </li>
                     <li class="nav-item"> <a class="nav-link" href="#Contact">Contact</a> </li>
                 </ul>
             </div>
@@ -132,7 +132,7 @@
             </div>
             <!--Row-->
             <div class="row">
-                <div class="col-sm-4">
+                <div class="col-sm-4  more-sect">
                     <h2 class='More-title2'>Front-End:</h2>
                     <ul class="more-list">
                         <li class="more-skill">HTML5</li>
@@ -143,7 +143,7 @@
                         <li class="more-skill">PSD to HTML</li>
                     </ul>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-sm-4  more-sect">
                     <h2 class='More-title2'>Back-End:</h2>
                     <ul class="more-list">
                         <li class="more-skill">Cloud9</li>
@@ -152,7 +152,7 @@
                         <li class="more-skill">Currently Learning MEAN Stack</li>
                     </ul>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-sm-4 more-sect">
                     <h2 class="More-title2"> Worth Mentioning:</h2>
                     <ul class="more-list">
                         <li class="more-skill">Github</li>
@@ -167,7 +167,17 @@
         <!-- Container -->
     </section>
     <!--Additional Skills -->
-    <section id="Projects ">
+    <section class="parallax " data-type="background" data-speed='4'>
+        <div class='container'>
+            <div class='row'>
+                <div class="col-sm-12 parallax-contain">
+                    <h2>Feel free to browse through my work!</h2> </div>
+            </div>
+            <!--row-->
+        </div>
+        <!--container-->
+    </section>
+    <section id="Projects">
         <div class="section-projects ">
             <div class='container'>
                 <div class='row'>
@@ -175,13 +185,30 @@
                         <h2 class="bold-aqua ">Personal Projects</h2> </div>
                 </div>
                 <div class="row ">
-                    <div class="col-sm-4 padd "> <img class='project-img' src="img/proj-port.png " alt="land-cuda "> </div>
-                    <div class="col-sm-4 padd "> <img class='project-img' src="img/land-gallery.png " alt="land-cuda "> </div>
-                    <div class="col-sm-4 padd "> <img class='project-img' src="img/land-cuda.png " alt="land-cuda "> </div>
-                    <div class="col-sm-4 padd "> <img class='project-img' src="img/land-bluebox.png " alt="land-cuda "> </div>
-                    <div class="col-sm-4 padd "> <img class='project-img' src="img/land-elena.png " alt="land-cuda "> </div>
-                    <div class="col-sm-4 padd "> <img class='project-img' src="img/land-PSD.png " alt="land-cuda "> </div>
-                    <div class="col-sm-4 padd "> <img class='project-img' src="img/land-blog.png " alt="land-cuda "> </div>
+                    <div class="col-sm-4 padd ">
+                        <p class="project-title"><span class='bold-aqua'>#1 </span> Treehouse Portfolio Page</p>
+                        <p class="proj-under-title">Personal Project</p> <img class='project-img' src="img/proj-port.png " alt="land-cuda "> <a href="https://github.com/WingChhun/ProjectPort.github.io/tree/master"><i class="fa fa-folder-open-o proj-folder "></i> View Source Code</a></div>
+                    <div class="col-sm-4 padd ">
+                        <p class="project-title"><span class='bold-aqua'>#2</span> Image Gallery</p>
+                        <p class="proj-under-title">Personal Project</p> <img class='project-img' src="img/land-gallery.png " alt="land-cuda "> <a href="https://github.com/WingChhun/PSDtoHTML.github.io"><i class="fa fa-folder-open-o proj-folder "></i> View Source Code</a></div>
+                    <div class="col-sm-4 padd ">
+                        <p class="project-title"><span class='bold-aqua'>#3 </span> Cuda Landing Page</p>
+                        <p class="proj-under-title">PSD to HTML</p><img class='project-img' src="img/land-cuda.png " alt="land-cuda "> <a href="https://github.com/WingChhun/PSDtoHTML.github.io"><i class="fa fa-folder-open-o proj-folder "></i> View Source Code</a></div>
+                    <div class="col-sm-4 padd ">
+                        <p class="project-title"><span class='bold-aqua'>#4 </span> Bluebox Landing Page</p>
+                        <p class="proj-under-title">PSD to HTML</p><img class='project-img' src="img/land-bluebox.png " alt="land-cuda "> <a href="https://github.com/WingChhun/PSDtoHTML.github.io"><i class="fa fa-folder-open-o proj-folder "></i> View Source Code</a></div>
+                    <div class="col-sm-4 padd ">
+                        <p class="project-title"><span class='bold-aqua'>#5 </span> Elena Landing Page</p>
+                        <p class="proj-under-title">PSD to HTML</p><img class='project-img' src="img/land-elena.png " alt="land-cuda "> <a href="https://github.com/WingChhun/PSDtoHTML.github.io"><i class="fa fa-folder-open-o proj-folder "></i> View Source Code</a></div>
+                    <div class="col-sm-4 padd ">
+                        <p class="project-title"><span class='bold-aqua'>#6 </span> MobileApp </p>
+                        <p class="proj-under-title">PSD to HTML</p> <img class='project-img' src="img/land-PSD.png " alt="land-cuda "> <a href="https://github.com/WingChhun/PSDtoHTML.github.io"><i class="fa fa-folder-open-o proj-folder "></i> View Source Code</a></div>
+                    <div class="col-sm-4 padd ">
+                        <p class="project-title"><span class='bold-aqua'>#7 </span> Bootstrap Prototype Blog</p>
+                        <p class="proj-under-title">Failed Blog Contains Links to all of the above</p> <img class='project-img' src="img/land-blog.png " alt="land-cuda "> <a href="https://github.com/WingChhun/PSDtoHTML.github.io"><i class="fa fa-folder-open-o proj-folder "></i> View Source Code</a></div>
+                    <div class="col-sm-4 padd ">
+                        <p class="project-title"><span class='bold-aqua'>#8 </span>Prototype Portfolio Blog</p>
+                        <p class="proj-under-title">Current Website</p> <img class='project-img' src="img/land-blog.png " alt="land-cuda "> <a href="https://github.com/WingChhun/JamesBlog.github.io"><i class="fa fa-folder-open-o proj-folder "></i> View Source Code</a></div>
                 </div>
                 <!-- row-->
             </div>
@@ -194,18 +221,19 @@
     <section id="Contact ">
         <div class="section-contact ">
             <div class='container'>
-                <div class='row'> </div>
+                <div class='row'>
+                    <h2>This will be the contact page!</h2> </div>
                 <!-- row-->
             </div>
             <!--container-->
         </div>
     </section>
     <!--section-contacts-->
-    <footer id='#Contact'>
+    <footer>
         <div class="container ">
             <div class="row ">
                 <div class="col-sm-4 ">
-                    <p>Copyright &copy; James Chhun 2017 </p>
+                    <p>Copyright &copy; James Chhun 2017 | Icons used belong to FontAwesome </p>
                 </div>
                 <div class="col-sm-6 ">
                     <ul class="social-links ">
@@ -216,7 +244,7 @@
                         <li><a href="https://github.com/WingChhun "><i class="fa fa-github-square fa-2x "></i></a></li>
                     </ul>
                 </div>
-                <div class="col-sm-2 scrol-to-top-button "> <a href="#cover "><i class="fa fa-3x fa-chevron-circle-up "></i></a> </div>
+                <div class="col-sm-2 scrol-to-top-button "> <a href="#Cover "><i class="fa fa-3x fa-chevron-circle-up "></i></a> </div>
             </div>
         </div>
     </footer>
