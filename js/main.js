@@ -1,19 +1,22 @@
 //Start every Javascript document with doc.ready
 $(document).ready(function () {
-    //Sticky Header past Cover Section, 970 refers to height of browser)
-    /*
     $(window).scroll(function () {
         //If 
         if ($(window).scrollTop() > 970) {
             //select nav bar, add bootstrap sticky header class
             $('.navbar').addClass('fixed-top');
+            $('.navbar').css({
+                "backgroundColor": "rgba(0,0,0,0.5)"
+            });
         }
         if ($(window).scrollTop() < 971) {
             //remove the navbar-fixed-top class
             $('.navbar').removeClass('fixed-top');
+            $('.navbar').css({
+                "backgroundColor": "rgba(0,0,0,0.4)"
+            });
         }
     });
-    */
 });
 $(function () {
     $('a[href*="#"]:not([href="#"])').click(function () {
