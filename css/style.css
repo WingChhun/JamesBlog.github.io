@@ -398,6 +398,7 @@ hr {
 .padd .project-title {
     margin-top: 1rem;
     font-size: 1rem;
+    text-align: center;
 }
 
 .proj-under-title {
@@ -427,8 +428,23 @@ hr {
 
 /* Contact  */
 
+#Contact {
+    background-color: #FDCD3B;
+    padding: 4rem;
+    ;
+    color: black;
+    text-align: center;
+}
 
-/* Footer  */
+.contact-title {
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.contact-under-title {
+    padding: 5px;
+    font-size: 1.2rem;
+}
 
 
 /* FOOTER */
