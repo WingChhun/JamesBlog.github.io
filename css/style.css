@@ -62,19 +62,16 @@ hr {
 }
 
 .navbar a {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
 
 .navbar {
-    padding: 5px 2rem;
-    background-color: transparent;
-    background: transparent;
-    border-color: transparent;
+    padding: 5px 1rem;
 }
 
 .brand-img {
-    height: 60px;
-    width: 60px;
+    height: 40px;
+    width: 40px;
     margin-left: 25px;
     margin-right: 20px;
     border: solid 1px black;
@@ -138,7 +135,7 @@ hr {
 }
 
 .cover-btn-text {
-    padding: 1rem 5px 5px 0;
+    padding: 0 5px 5px 0;
     color: #d4d4d4;
     font-style: italic;
     font-size: 1.2rem;
@@ -204,7 +201,7 @@ hr {
 
 .head-about {
     text-align: center;
-    font-size: 2.2rem;
+    font-size: 2rem;
     padding-top: 15px;
     color: rgba(22, 215, 235, 1);
     text-shadow: 1px 2px black;
@@ -219,6 +216,10 @@ hr {
 .about-objectives {
     margin-top: 1rem;
     padding: 1rem;
+    text-align: center;
+}
+
+.about-objectives ul {
     text-align: center;
 }
 
@@ -532,4 +533,119 @@ footer p {
 
 container {
     max-width: 1350px !important;
+}
+
+
+/* QUERIES*/
+
+@media screen and (max-width:1680px) {
+    .section-content {
+        font-size: 1.3rem;
+    }
+    .cover-button-contact {
+        font-size: 1.5rem;
+    }
+    .cover-btn-text {
+        margin: 0 auto;
+        padding: 0;
+        top: 0%;
+    }
+}
+
+@media screen and (max-width:1240px) {
+    #Cover {
+        padding: 14rem;
+    }
+    .head {
+        font-size: 3rem;
+    }
+    .under-head {
+        font-size: 3rem;
+    }
+    .cover-button-contact {
+        font-size: 1.2rem;
+        padding: 10px;
+    }
+    .cover-btn-text {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width:980px) {
+    #Cover {
+        padding: 10rem;
+    }
+}
+
+@media screen and (max-width:880px) {
+    #Cover {
+        padding: 8rem;
+    }
+}
+
+@media screen and (max-width:720px) {
+    #Cover {
+        padding: 6rem;
+    }
+    .profile-img {
+        height: 150px;
+    }
+}
+
+@media screen and (max-width:490px) {
+    #Cover {
+        padding: 4rem;
+    }
+    .under-head {
+        font-size: 2.5rem;
+    }
+    .head-about-text {
+        font-size: 1.2rem;
+    }
+    .profile-img {
+        height: 180px;
+        width: 200px;
+    }
+    .footer p {
+        font-size: 1rem;
+    }
+    .social-links li {}
+}
+
+@media screen and (max-width:340px) {
+    #Cover {
+        padding: 1rem;
+    }
+    .head {
+        font-size: 2.3rem;
+    }
+    .under-head {
+        font-size: 2rem;
+    }
+    .cover-button-contact {
+        font-size: 1rem;
+    }
+    .cover-btn-text {}
+    #About {
+        padding: 1rem;
+    }
+    .profile-img {}
+    .title,
+    .title2 {
+        font-size: 1.2rem;
+    }
+    .head-about {}
+    .head-about-text {
+        font-size: 1.1rem;
+    }
+    #Contact {
+        padding: 1.5rem 1rem;
+    }
+    .social-links li {
+        margin-right: 5px;
+    }
+    .social-links {
+        margin: 0 auto;
+        padding: 0 auto;
+    }
 }
