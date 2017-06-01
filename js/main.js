@@ -1,6 +1,7 @@
 //Start every Javascript document with doc.ready
 $(document).ready(function () {
     //Sticky Header past Cover Section, 970 refers to height of browser)
+    /*
     $(window).scroll(function () {
         //If 
         if ($(window).scrollTop() > 970) {
@@ -12,6 +13,7 @@ $(document).ready(function () {
             $('.navbar').removeClass('fixed-top');
         }
     });
+    */
 });
 $(function () {
     $('a[href*="#"]:not([href="#"])').click(function () {
