@@ -16,7 +16,7 @@
 
 body {
     /* Heading default text  */
-    font-family: 'Patua One';
+    font-family: 'Montserrat';
     background: url('../img/subtle_white_feathers.png') center center;
 }
 
@@ -24,7 +24,7 @@ p {
     /*Default body text   */
     line-height: 1.2rem;
     font-size: 1.1rem;
-    font-family: 'Kreon-Regular';
+    font-family: 'Roboto';
 }
 
 
@@ -66,6 +66,7 @@ hr {
 }
 
 .navbar {
+    background-color: rgba(0, 0, 0, 0.5);
     padding: 5px 1rem;
 }
 
@@ -93,20 +94,25 @@ hr {
     color: white;
 }
 
+#Cover-overlay {
+    background-color: rgba(0, 0, 0, 0.25);
+    background-size: cover;
+}
+
 #Cover {
     height: 100vh;
-    padding: 13rem;
+    padding: 16rem;
     text-shadow: 1px 2px black;
     text-align: center;
 }
 
 .cover-but {
     margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
 }
 
 .cover-button-contact {
-    font-size: 1.2rem;
+    font-size: 2rem;
     margin-top: 3rem;
     padding: 0.8rem;
     color: white;
@@ -128,7 +134,7 @@ hr {
 }
 
 .cover-btn {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     position: relative;
     top: 80%;
     color: #d4d4d4;
@@ -317,6 +323,11 @@ hr {
 
 /* Parallax*/
 
+#parallax-over {
+    background-color: rgba(0, 0, 0, 0.25);
+    background-size: cover;
+}
+
 .parallax {
     /* The image used */
     text-align: center;
@@ -333,15 +344,15 @@ hr {
 
 .parallax-contain {
     margin-top: 20%;
-    height: 150px;
-    padding: 1rem;
-    background-color: rgba(0, 0, 0, 0.4);
+    height: 100%;
+    padding-bottom: 1rem;
+    background-color: rgba(0, 0, 0, 0.25);
 }
 
 .parallax-contain h2 {
     padding-top: 45px;
     font-size: 2.2rem;
-    color: #FDCD3B;
+    color: white;
     text-shadow: 1px 1px black;
 }
 
@@ -563,22 +574,44 @@ container {
 /* QUERIES*/
 
 @media screen and (max-width:1680px) {
-    .section-content {
-        font-size: 1.3rem;
+    .head {
+        font-size: 5rem;
+    }
+    .under-head {
+        font-size: 4rem;
     }
     .cover-button-contact {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
     .cover-btn-text {
         margin: 0 auto;
         padding: 0;
         top: 0%;
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width:1480px) {
+    #Cover {
+        padding: 8rem 12rem;
+    }
+    .head {
+        font-size: 4rem;
+    }
+    .under-head {
+        font-size: 3.5rem;
+    }
+    .cover-button-contact {
+        font-size: 1.5rem;
+    }
+    .cover-btn-text {
+        font-size: 1.3rem;
     }
 }
 
 @media screen and (max-width:1240px) {
     #Cover {
-        padding: 14rem;
+        padding: 12rem 12rem;
     }
     .head {
         font-size: 3rem;
@@ -595,6 +628,13 @@ container {
     }
 }
 
+@media screen and (max-width:1024px) {
+    /*  IPAD */
+    #Cover {
+        padding: 10rem 12rem;
+    }
+}
+
 @media screen and (max-width:980px) {
     #Cover {
         padding: 10rem;
@@ -607,9 +647,9 @@ container {
     }
 }
 
-@media screen and (max-width:720px) {
+@media screen and (max-width:768px) {
     #Cover {
-        padding: 6rem;
+        padding: 7rem 5rem;
     }
     .profile-img {
         height: 150px;
