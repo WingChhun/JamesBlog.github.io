@@ -686,10 +686,15 @@ container {
     .under-head {
         font-size: 2rem;
     }
-    .cover-button-contact {
+    .cover-button-contact,
+    .cover-button-contact:hover {
         font-size: 1rem;
+        padding: 7px;
     }
-    .cover-btn-text {}
+    .cover-btn-text,
+    .cover-btn-text:hover {
+        font-size: 0.8rem;
+    }
     #About {
         padding: 1rem;
     }
