@@ -1,22 +1,8 @@
 /* INSTALL FONTS */
 
-@font-face {
-    /*Install a font locally using Font Faces */
-    font-family: 'Kreon-Regular';
-    src: local('Kreon-Regular.ttf'), url('Kreon-Regular.ttf') format('truetype');
-    /* or truetype*/
-}
-
-@font-face {
-    /*Install a font locally using Font Faces */
-    font-family: 'Walter-TurnCoat';
-    src: local('Walter-TurnCoat.ttf'), url('Walter-TurnCoat.ttf') format('truetype');
-    /* or truetype*/
-}
-
 body {
     /* Heading default text  */
-    font-family: 'Montserrat';
+    font-family: 'Raleway';
     background: url('../img/subtle_white_feathers.png') center center;
 }
 
@@ -24,7 +10,6 @@ p {
     /*Default body text   */
     line-height: 1.2rem;
     font-size: 1.1rem;
-    font-family: 'Roboto';
 }
 
 
@@ -89,7 +74,7 @@ hr {
 /* HOME/ COVER  */
 
 #full-cover {
-    background: url('../img/cover.jpg') center, center;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/cover.jpg') center, center;
     background-size: cover;
     color: white;
 }
@@ -164,12 +149,12 @@ hr {
 .head {
     font-size: 4rem;
     line-height: inherit;
-    font-weight: 800;
+    font-weight: 300;
 }
 
 .under-head {
     font-size: 3.5rem;
-    font-weight: 800;
+    font-weight: 300;
     line-height: inherit
 }
 
@@ -332,7 +317,7 @@ hr {
     /* The image used */
     text-align: center;
     color: white;
-    background-image: url("../img/parallax2.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/parallax2.jpg");
     /* Set a specific height */
     height: 600px;
     /* Create the parallax scrolling effect */
